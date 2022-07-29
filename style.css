@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Karla", sans-serif;
+}
+
+body {
+  background-color: #f0f9ff;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  font-size: small;
+}
+
+.header {
+  background-color: white;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.contentHeader h1 {
+  color: hsl(179, 62%, 43%);
+  padding-bottom: 20px;
+}
+
+.contentHeader h2 {
+  color: hsl(71, 73%, 54%);
+  padding-bottom: 20px;
+}
+
+.contentHeader p {
+  font-size: 16px;
+  line-height: 22px;
+  color: hsl(218, 22%, 67%);
+  font-weight: 600;
+}
+
+.monthlyDescription {
+  background-color: hsl(179, 62%, 43%);
+}
+
+.monthlyDescription h1,
+.description h1 {
+  color: white;
+  font-weight: 500;
+  padding: 15px 0px;
+}
+
+.monthlyPrice {
+  padding: 5px 0px;
+  font-weight: 400;
+  color: #99f6e4;
+}
+
+.price {
+  color: white;
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+.monthlyDescription p {
+  color: #99f6e4;
+  padding: 0px 0px 10px;
+  word-spacing: 3px;
+}
+
+.signUpButton {
+  width: 100%;
+  background-color: hsl(71, 73%, 54%);
+  border: hsl(71, 73%, 54%) 1px solid;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px hsl(218, 22%, 67%);
+  color: #ecfccb;
+  font-weight: 600;
+}
+
+.description {
+  background-color: hsl(179, 62%, 50%);
+}
+
+.description p {
+  color: #99f6e4;
+}
+
+@media only screen and (max-width: 600px) {
+  .contentContainer {
+    box-shadow: 1px 1px 20px hsl(218, 22%, 67%);
+    border-radius: 10px;
+    width: 80%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .contentHeader,
+  .monthlyDescription,
+  .description {
+    padding: 25px 30px;
+  }
+
+  .contentHeader h1 {
+    font-size: 20px;
+  }
+
+  .contentHeader h2 {
+    font-size: 14px;
+  }
+
+  .contentHeader p {
+    font-size: 14px;
+    line-height: 22px;
+    color: hsl(218, 22%, 67%);
+    font-weight: 300;
+  }
+
+  .monthlyDescription h1,
+  .description h1 {
+    font-size: 15px;
+  }
+
+  .monthlyPrice {
+    font-size: 20px;
+  }
+
+  .price {
+    font-size: 30px;
+  }
+
+  .monthlyDescription p {
+    font-size: 14px;
+  }
+
+  button {
+    margin-top: 20px;
+  }
+
+  .signUpButton {
+    padding: 20px 10px;
+    font-size: 15px;
+  }
+
+  .description p {
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .contentContainer {
+    box-shadow: 1px 1px 20px hsl(218, 22%, 67%);
+    border-radius: 10px;
+    width: 40%;
+  }
+
+  .contentHeader {
+    padding: 50px 50px;
+  }
+
+  .descriptionContainer {
+    display: flex;
+    width: 100%;
+  }
+
+  .monthlyDescription {
+    width: 50%;
+    padding: 50px 50px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .monthlyDescription h1,
+  .description h1 {
+    font-size: 20px;
+  }
+
+  .monthlyPrice {
+    font-size: 18px;
+  }
+
+  .price {
+    font-size: 35px;
+  }
+
+  .monthlyDescription p {
+    font-size: 17px;
+  }
+
+  .signUpButton {
+    padding: 20px 10px;
+    font-size: 20px;
+  }
+
+  .description {
+    width: 50%;
+    padding: 50px 50px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .description p {
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
